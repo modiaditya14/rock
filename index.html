@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width , initial-scale=1.0">
+    <title>Stone Paper Scissors</title>
+    <link rel=stylesheet href=styles.css>
+    <script src=script.js defer></script>
+</head>
+
+<body>
+    <pre id="hid">
+
+
+
+
+
+
+
+
+
+
+
+    </pre>
+    <div id=show>
+        <h1>Stone &nbsp; Paper &nbsp; Scissors</h1>
+        <div class="selections">
+            <button class="selection" id="stone">✊</button>
+            <button class="selection" id="paper">✋</button>
+            <button class="selection" id="scissors">✌</button>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <td>You <span class="scoreDisplay" id="youscore">0</span>
+                </td>
+                <td>Computer <span class="scoreDisplay" id="cpuscore">0</span>
+                </td>
+            </tr>
+        </thead>
+        <tbody id=scoreTable>
+
+        </tbody>
+    </table>
+    <div class="info">
+        <span id="player"></span><span id="emoji"></span>
+        <br> Score: <br><span id="score"></span>
+        <small>
+            <br>
+        </small>
+        <button id=restart onclick="location.reload()">Restart</button>
+    </div>
+</body>
+
+</html>
